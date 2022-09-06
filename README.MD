@@ -1,7 +1,16 @@
-**Use Python 3.10.6**
+Python + Selenium 基本爬蟲
 
-`解决 Executable path has been deprecated please pass in a Service object in Selenium Python
-```from selenium.webdriver.chrome.service import Service
-PATH=Service ("/Users/yiyi/Documents/driver/chromedriver")
-driver= webdriver.Chrome(service=PATH)
-driver.get("https://www.dcard.tw/f")````
+Python ver. = 3.10.6
+
+[Python](https://www.python.org/)
+---
+
+1. Selenium 安裝  
+```pip install selenium```
+
+2. Webdriver 下載
+要使用Selenium爬蟲前，Webdriver是必備的，而不同的瀏覽器會有不同的driver。  
+[Chrome](https://sites.google.com/chromium.org/driver/)  
+請記得檢查目前的瀏覽器版本，再下載對應的Webdriver
+
+
