@@ -24,7 +24,7 @@ WebDriverWait(driver, 20).until(
 )
 
 # 讀取標題
-titles=driver.find_elements(By.CLASS_NAME,"sc-8fe4d6a1-3")
+titles=driver.find_elements(By.CLASS_NAME,"sc-c384d921-3")
 
 for title in titles:
     print(title.text)
